@@ -1,21 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ index.html of parallax-gallery for par-gallery.bauska.org ~~~~~~~~~~~~~~~~~-->
 <head>
-  <meta charset="UTF-8">
-  <title>Infinite Parallax Gallery – 5‑Layer Scrolling Image Wall (Three.js)</title>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
+
+  <!-- viewport and seo -->
+  <meta name="title" content="Parallax Gallery">
+  <meta name="description" content=".">
+  <meta name="keywords" content="W3Cx,W3C,W3Cx-5of5-JS,JS,JavaScript.0x,jQuery,#jQuery,#JavaScript,#JavaScript.0x,
+    CSS Basics,#W3Cx,#CSS,#CSS.0x,#CascadeStyleSheet,#Cascade-style-sheets,Silus Gaming World,SilusGamingWorld,
+    SilusGW,#SilusGamingWorld,#Web,#Development,#Markup,#Language,#GTASilus,#PvZSilus,#PVZ-Silus,#GTA-Silus,
+    #SilusGW,#SilusGWFNAF,#Silus-GW,Silus-GW-GTA,#Silus-GW-GTA,Silus-GW-PVZ,#Silus-GW-PVZ,#SilusGameTraiers,
+    #SilusTheSnake,#SilusSquadMembers,#Silus-ET,#SilusET,#SilusAlienUFO,#SuperSilus,#PuppetSilus,#SilusPuppet,
+    website,web,site,zombie,Politics,culture,casino,capitalism,over290videos,#videos,#291,#et,
+    capitalize,political,disposability,death,America,culture,power,society,greed,avarice,excess,
+    MIC,Military,Industrial,Complex,corruption,Dulles,Bush,Reagan,justice,youth,democracy,psychology,
+    ideology,governance,spectacle,casinocapitalism,zombie,steak,Steak,YouTube,Sonic,sonic,SONIC,
+    Silus,Gaming,World,SilusGamingWorldLuccasNeto,T-Series,SETIndia,Cocomelon,Mr,Beast,MrBeast,
+    Beast,CE1,C-E-1,MRBEAST,BEAST,SilusGamingWorld,Silus,SilusSpider,NickAR,Nick,NY,NYNick,
+    NewYorkNick,NYNick,URCristiano,UR,Cristiano,KidsDimaShow,VladandNiki,LuisitoComunica,
+    BrightSide,ZeeTV,DudePerfect,TipsOfficial,TipsOfficial,FNAF,FiveNightsatFreddies,
+    TheMusicCompany,PewDiePie,5minutecrafts,A4,Sambucha,Sam&Colby,Sam&ColbyReacts,JuiceWorld,
+    RayWilliamJohnson,FGTV,KaicenatLive,IShowSpeed,Jelly,DanTDM,KSI,LoganPaul,JackSucksAtLife,
+    PackGOD,JakePaul,Jake,PaulJakePaul,SamGaming01,Veshreny,WWE,WorldWrestlingEntertainment,
+    Smosh,DadsSpeed,TopperGuild,InternetAnarchist,GuavaJuice,FortniteYoutubers,Sypherpk,LiveSPEEDY,
+    AdenRoss,Preston,JohnnieJuilbert,YouTube Movies,AnnoyingOrange,JackSepticeye,JackFilms,BBNo$,
+    Unspeakable,MarkRober,TheFilmTheorist,TheGameTheorist,Minecraft,TheBoys,JTMusic,DAFUQBoom!?,
+    AIMIN,Robby,BrentTV,EYStream,Fortnite,Ninja,SunnyV2,N30N,SamFrank,Dream,Technoblade,@bbauska,
+    RyanTrhan,Stellar,DJCook,AnthonyMadia,AnthonyIlla,SmoshGaming,SmoshPit,SmoshCast,Fred,cellardoor,
+    BriansBlog,CellarDoor,Silus,GW,Gaming,World,SilusGamingWorld,SilusGW,#Silus-GW,#cellardoor,bbauska,
+    #SilusGamingWorld,#SilusGW,gluttony,selfishness,#bbauska,#silas,#silys,#sylus,#sylas,#sylusgw,
+    #silasGW,#silasgamingworld,silusspider,roblox,#roblox,#gta6,#GTA6">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="author" content="Brian Bauska">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="canonical" href="https://par-gallery.bauska.org">
+
+  <title>Infinite Parallax Gallery</title>
   <link rel="stylesheet" href="./css/styles.css">
 
 </head>
     
 <body>
   <div id="container"></div>
-  <div id="loading">Family images...</div>
-  <div id="ui" class="hint" style="display:none;">Cats and their family <a href="../images/Hayden.jpg" target="_blank" rel="noopener nofollow">Brian Bauska</a> and more <a href="https://par-gallery.bauska.org/images/Kyah-Silus.jpg"  target="_blank" rel="noopener nofollow">Kyah &amp; Silus</a>
+  <div id="loading">Family pictures...</div>
+  <div id="ui" class="hint" style="display:none;">Cats and their family <a href="https://par-gallery.bauska.org/images/Hayden.jpg" target="_blank" rel="noopener nofollow">Hayden Richelle</a> and more <a href="https://par-gallery.bauska.org/images/Kyah-Silus.jpg"  target="_blank" rel="noopener nofollow">Kyah &amp; Silus</a>
   </div>
-<div class="copy">three.js</div>
+  <div class="copy">three.js</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
   <script src="./js/script.js"></script>
 
 </body>
-</html>
+</html>  
