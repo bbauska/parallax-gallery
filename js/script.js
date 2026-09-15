@@ -34,9 +34,10 @@ const LAYER_CONFIG = [{
   opacity: 0.4
 }];
 const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../images/11-image9.jpg', 
-                     '../images/12-image10.jpg', '../images/13-image11.jpg', '../images/14-image12.jpg', '../images/14-kitty.jpg', '../images/16-Hayden-Silus-friends-2015ish.jpg', 
+                     '../images/12-image10.jpg', '../images/13-image11.jpg', '../images/14-image12.jpg', 
+					 '../images/14-kitty.jpg', '../images/16-Hayden-Silus-friends-2015ish.jpg', 
                      '../images/17-Hayden-Silus-and-Kyah-2011ish.jpg', '../images/18-Silus-killer-smile-big-black-hat.jpg',
-					 '../images/2-11-16-24-b.jpg', '../images/20-hayden-10-1-11-down-makeup-for-job.jpg', 
+					 '../images/2-11-16-24-b.jpg', '../images/20-hayden-10-1-22-down-makeup-for-job.jpg', 
 					 '../images/2003-kyah.jpg', '../images/2026-05-31-Alex-sitting-on-porch.jpg', 
 					 '../images/2026-05-31-Judah-Hayden-cleaning.jpg', '../images/2026-05-31-Judah-held-by-mpom.jpg', 
 					 '../images/2026-05-31-Judah-napping-in-Moms-arms.jpg', '../images/2026-05-31-Judah-sleeping.jpg', 
@@ -63,7 +64,7 @@ const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../
 					 '../images/20-silus-aug-19-2021.jpg', '../images/22-silus-cousin.jpg', 
 					 '../images/21-silus-brandy-2011ish.jpg', '../images/2026-06-16-Judah-sleeping.jpg', 
 					 '../images/20-hayden-10-1-22-down-makeup-for-job.jpg', 
-					 '../images/16-Hayden-Silus-friends-2015ish.jpg', '../images/18-Silus-killer-smile-big-black-hat.jpg', 
+					 '../images/16-Hayden-Silus-friends-2015ish.png', '../images/18-Silus-killer-smile-big-black-hat.jpg', 
                      '../images/18-hayden-mom-2017-waterpark-bday.jpg'];
 let shuffledImages = [];
 let currentImageIndex = 0;
