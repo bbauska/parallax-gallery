@@ -35,7 +35,7 @@ const LAYER_CONFIG = [{
 }];
 const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../images/11-image9.jpg', 
                      '../images/12-image10.jpg', '../images/13-image11.jpg', '../images/14-image12.jpg', 
-					 '../images/14-kitty.jpg', '../images/16-Hayden-Silus-friends-2015ish.jpg', 
+					 '../images/14-kitty.jpg', '../images/16-Hayden-Silus-friends-2015ish.png', 
                      '../images/17-Hayden-Silus-and-Kyah-2011ish.jpg', '../images/18-Silus-killer-smile-big-black-hat.jpg',
 					 '../images/2-11-16-24-b.jpg', '../images/20-hayden-10-1-22-clown-makeup-for-job.jpg', 
 					 '../images/20-hayden-10-1-22-clown-makeup-for-you.jpg', '../images/2003-kyah.jpg', 
