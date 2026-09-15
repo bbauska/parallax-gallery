@@ -67,7 +67,7 @@ const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../
                      '../images/18-hayden-mom-2017-waterpark-bday.jpg'];
 let shuffledImages = [];
 let currentImageIndex = 0;
-console.log("&Toc on codepen - https://codepen.io/ol-ivier");
+console.log("&Toc on codepen - https://codepen.io/BBauska");
 
 function shuffleArray(array) {
   const newArray = [...array];
