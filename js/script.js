@@ -34,8 +34,8 @@ const LAYER_CONFIG = [{
   opacity: 0.4
 }];
 const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../images/11-image9.jpg', '../images/12-image10.jpg', 
-                     '../images/13-image11.jpg', '../images/14-image12.jpg', '../images/16-Hayden-Silus-friends-2015ish.jpg', 
-                     '../images/18-Silus-killer-smile-big-black-hat.jpg', '../images/7-image3.jpg', '../images/8-image5.jpg', 
+                     '../images/13-image11.jpg', '../images/14-image12.jpg', '../images/14-kitty.jpg', '../images/16-Hayden-Silus-friends-2015ish.jpg', 
+                     '../images/17-Hayden-Silus-and-Kyah-2011ish.jpg', '../images/18-Silus-killer-smile-big-black-hat.jpg', '../images/7-image3.jpg', '../images/8-image5.jpg', 
                      '../images/9-image6.jpg', '../images/10-image7.jpg', '../images/11-image9.jpg', '../images/12-image10.jpg', 
                      '../images/13-image11.jpg', '../images/14-image12.jpg', '../images/14-kitty.jpg', 
                      '../images/18-Silus-killer-smile-big-black-hat.jpg', '../images/18-hayden-mom-2017-waterpark-bday.jpg', 
