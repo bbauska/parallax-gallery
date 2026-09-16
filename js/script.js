@@ -57,7 +57,7 @@ const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../
 					 '../images/14-kitty.jpg', '../images/18-Silus-killer-smile-big-black-hat.jpg', 
 					 '../images/18-hayden-mom-2017-waterpark-bday.jpg',  '../images/20-silus-aug-19-2021.jpg', 
 					 '../images/22-silus-cousin.jpg', '../images/21-silus-brandy-2011ish.jpg', 
-					 '../images/2026-06-16-Judah-sleeping.jpg', '../images/20-hayden-10-1-22-down-makeup-for-job.jpg', 
+					 '../images/2026-06-16-Judah-sleeping.jpg', '../images/20-hayden-10-1-22-clown-makeup-for-job.jpg', 
 					 '../images/16-Hayden-Silus-friends-2015ish.png', '../images/18-Silus-killer-smile-big-black-hat.jpg', 
                      '../images/18-hayden-mom-2017-waterpark-bday.jpg'];
 let shuffledImages = [];
