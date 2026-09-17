@@ -58,8 +58,8 @@ const IMAGE_PATHS = ['../images/1-11-16-24.jpg', '../images/10-image7.jpg', '../
 					 '../images/18-hayden-mom-2017-waterpark-bday.jpg',  '../images/20-silus-aug-19-2021.jpg', 
 					 '../images/kyah.jpg', '../images/silus.jpg', '../images/Kyah-Silus.jpg', '../images/hayden-silus.jpg', 
 					 '../images/kyah-5.jpg', '../images/kyah-again.jpg', '../images/kyah.jpg', '../images/silus.jpg', 
-					 '../images/22-silus-cousin.jpg', '../images/21-silus-brandy-2011ish.jpg', '../images/2026-09-07-Judah-3.jpg',
-					 '../images/2026-07-13-Judah-1.jpg', '../images/2026-07-14-Judah-2.jpg', '../images/2026-07-13-Judah-held-by-dad.jpg',
+					 '../images/22-silus-cousin.jpg', '../images/2026-09-07-Judah-3.jpg',
+					 '../images/2026-07-13-Judah-1.jpg', '../images/2026-07-13-Judah-2.jpg', '../images/2026-07-13-Judah-held-by-dad.jpg',
 					 '../images/2026-06-16-Judah-sleeping.jpg', '../images/20-hayden-10-1-22-clown-makeup-for-job.jpg', 
 					 '../images/16-Hayden-Silus-friends-2015ish.png', '../images/18-Silus-killer-smile-big-black-hat.jpg', 
                      '../images/18-hayden-mom-2017-waterpark-bday.jpg'];
