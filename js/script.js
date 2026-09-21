@@ -158,11 +158,18 @@ function loadAll() {
     }
   }
 }
-
+<!--
 function onLoaded(tex) {
   textures.push(tex);
   loaded++;
   loadingEl.textContent = `Chargement ${Math.round((loaded/TOTAL)*100)}%`;
+  if (loaded === TOTAL) initSprites();
+}
+-->
+function onLoaded(tex) {
+  textures.push(tex);
+  loaded++;
+  loadingEl.textContent = `Loading ${Math.round((loaded/TOTAL)*100)}%`;
   if (loaded === TOTAL) initSprites();
 }
 
